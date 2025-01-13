@@ -1,7 +1,7 @@
 const theNavbar = document.querySelector("#header");
 
 const injectNav = () => {
-    const nav = ` <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3 p-3">
+    const nav = `<nav class="navbar navbar-expand-lg bg-body-tertiary mb-3 p-3">
             <div class="container-fluid">
                 <img src="./assets/images/CSEE (2).png" alt="Logo" href="#" height="60px"
                     class="d-inline-block align-text-center">
@@ -69,8 +69,7 @@ const injectNav = () => {
 
                         </ul>
                 </div>
-        </nav>
-`;
+        </nav>`;
     theNavbar.innerHTML += nav;
 };
 
