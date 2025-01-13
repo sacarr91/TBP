@@ -1,7 +1,7 @@
 const theNavbar = document.querySelector("#header");
 
 const injectNav = () => {
-        const nav = `<nav class="navbar bg-body-tertiary mb-3 p-3">
+    const nav = `<nav class="navbar bg-body-tertiary mb-3 p-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#" style="font-size: xx-large;">
                     <img src="./assets/images/CSEE (2).png" alt="Logo" height="60px"
@@ -10,11 +10,9 @@ const injectNav = () => {
                 </a>
                 <ul class="nav nav-pills">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" style="text-align: center;" href="#">Starting an </br>Orchestra</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="text-align: center;" href="#">Starting an </br>Orchestra</a>
-                    </li><li class="nav-item">
                         <a class="nav-link" style="text-align: center;" href="#">Maintaining an </br>Orchestra</a>
                     </li>
                     <li class="nav-item dropdown">
@@ -66,7 +64,7 @@ const injectNav = () => {
                 </ul>
             </div>
         </nav>`;
-        theNavbar.innerHTML += nav;
+    theNavbar.innerHTML += nav;
 };
 
 injectNav();
