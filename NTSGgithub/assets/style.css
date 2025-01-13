@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Playwrite+VN:wght@100..400&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap');
 
 body {
-    font-family: serif;
+    font-family: 'Poiret One', 'Shadows Into Light', 'Cinzel', 'Playwrite VN', 'Poppins', serif;
 }
 
 .playwrite-vn-100 {
@@ -194,3 +194,13 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+/* ----------------------- */
+:root {
+    --old-rose: #bf7d73ff;
+    --pale-dogwood: #ecbeb1ff;
+    --puce: #d37e98ff;
+    --coffee: #654933ff;
+    --seal-brown: #3f1f0dff;
+  }
+  
