@@ -1,4 +1,4 @@
-const homepage = document.querySelector("#main");
+const homepage = document.querySelector("#whatWhere");
 const heroDiv = document.querySelector("#heroImg");
 
 const injectHero = () => {

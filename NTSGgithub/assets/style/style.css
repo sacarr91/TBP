@@ -2,34 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Playwrite+VN:wght@100..400&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap');
 
 body {
-    font-family: 'Poiret One', 'Shadows Into Light', 'Cinzel', 'Playwrite VN', 'Poppins', serif;
+    font-family: 'Poiret One', 'Shadows Into Light', 'Cinzel', 'Poppins', serif;
 }
 
-.playwrite-vn-100 {
-    font-family: "Playwrite VN", serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-}
-
-.playwrite-vn-200 {
-    font-family: "Playwrite VN", serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.playwrite-vn-300 {
-    font-family: "Playwrite VN", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.playwrite-vn-400 {
-    font-family: "Playwrite VN", serif;
-    font-optical-sizing: auto;
+h2, h3 {
+    font-family: 'Cinzel', 'Poiret One', serif;
     font-weight: 400;
+}
+h4, h5, h6 {
+    font-family: 'Shadows Into Light', 'Poiret One', 'sans-serif';
+}
+
+p {
+    font-family: 'Poppins', 'Shadows Into Light', 'Poiret One', 'sans-serif';
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -183,13 +169,13 @@ body {
     font-style: normal;
 }
 
-.poiret-one-regular {
+.poiret {
     font-family: "Poiret One", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.shadows-into-light-regular {
+.shadows {
     font-family: "Shadows Into Light", serif;
     font-weight: 400;
     font-style: normal;
@@ -202,5 +188,4 @@ body {
     --puce: #d37e98ff;
     --coffee: #654933ff;
     --seal-brown: #3f1f0dff;
-  }
-  
+}
