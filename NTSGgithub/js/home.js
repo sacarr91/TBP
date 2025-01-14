@@ -1,5 +1,6 @@
 const homepage = document.querySelector("#whatWhere");
 const heroDiv = document.querySelector("#heroImg");
+const credsDiv = document.querySelector("#credentials");
 
 const injectHero = () => {
         const heroImg = `<img src="./assets/images/Compiled by Stephanie Carr, Florida State University MME.png" class="img-fluid" alt="New-To-Strings Guide: A compilation of expert teaching, useful resources, reproducible materials,
@@ -39,5 +40,55 @@ const injectIntro = () => {
     homepage.innerHTML += homeText;
 };
 
+
+const injectCreds = () => {
+    const credentialCards = `<h1>NTSG Credentials</h1>
+<div class="card text-center">
+    <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="true" href="#">Creator</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contributors</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Research</a>
+            </li>
+        </ul>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">
+            Stephanie Carr, NTSG Creator</h5>
+        <p class="card-text">Hi, I'm Stephanie. I'm a native string player--cello primary--and a graduate of the Florida State University (BME 2013, MME 2017). From 2014-2018, I served as District leadership (Chair-Elect, then Chairperson) for District 8 of the Florida Orchestra Association (FOA). I have been coordinator of Central Florida Cellobration since 2013 and am co-founder of The Balance Point (<a href="https://www.balancepointfl.com/">balancepointfl.com</a>).<br><br>For my first two years of teaching, I was itinerant between two Title I middle schools. From there, I taught middle school for seven more years at a single school in a more affluent demographic. In 2022, I moved down the road to teach high school orchestra & guitar in Windermere, FL.<br><br>I love nothing more (professionally, that is) than sharing my experiences with others so that they might learn from my challenges without having to endure them personally, and use that knowledge to be even more successful in their own right. I hope this site benefits you greatly. Please feel free to share with friends & reach out if I can be of further assistance!</p>
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">
+            The resources & advice available on this site were generously contributed by...</h5>
+        <p class="card-text">
+            Music supervisors<br>
+            Veteran music teachers<br>
+            Lifelong string players, teachers, and pedagogues<br>
+            Luthiers (people who make & repair string instruments)<br>
+            Cross-pollinators & band-to-orch/chorus-to-orch converts<br>
+            String experts who have built steamroller orchestras from the ground up<br>
+        </p>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">
+            Enjoy reading papers?</h5>
+        <p class="card-text">
+            Below are more scholarly presentations of the materials used in the creation of this website,<br>
+            if you're into that sort of thing.</p>
+            <a href="#" class="btn btn-primary">Review of Literature</a>
+            <a href="#" class="btn btn-primary">Outline & Notes</a>
+    </div>
+</div>`;
+    credsDiv.innerHTML += credentialCards;
+};
+
+
 injectHero();
 injectIntro();
+injectCreds();
