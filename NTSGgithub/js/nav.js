@@ -22,7 +22,7 @@ const injectNav = () => {
                                     Orchestra</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../pages/repertoire.html" role="button"
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../pages/repertoire/repertoire.html" role="button"
                                     aria-expanded="false">Repertoire</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">ES</a></li>
@@ -33,9 +33,10 @@ const injectNav = () => {
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../pages/pedagogy.html" role="button"
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../pages/pedagogy/pedagogy.html" role="button"
                                     aria-expanded="false">Pedagogy</a>
                                 <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/pedagogy/pedagogy.html">Overview</a></li>
                                     <li><a class="dropdown-item" href="#">Violin</a></li>
                                     <li><a class="dropdown-item" href="#">Viola</a></li>
                                     <li><a class="dropdown-item" href="#">Cello</a></li>
@@ -47,7 +48,7 @@ const injectNav = () => {
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../pages/FOA.html" role="button"
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../pages/FOA/FOA.html" role="button"
                                     aria-expanded="false">Guide to FOA</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">FOA 1</a></li>
