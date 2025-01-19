@@ -36,11 +36,11 @@ const injectNav = () => {
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../pages/pedagogy/pedagogy.html" role="button"
                                     aria-expanded="false">Pedagogy</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="../pages/pedagogy/pedagogy.html">Overview</a></li>
-                                    <li><a class="dropdown-item" href="#">Violin</a></li>
-                                    <li><a class="dropdown-item" href="#">Viola</a></li>
-                                    <li><a class="dropdown-item" href="#">Cello</a></li>
-                                    <li><a class="dropdown-item" href="#">Bass</a></li>
+                                    <li><a class="dropdown-item" href="../../pages/pedagogy/pedagogy.html">Overview</a></li>
+                                    <li><a class="dropdown-item" href="../../pages/pedagogy/violin-pedagogy.html">Violin</a></li>
+                                    <li><a class="dropdown-item" href="../../pages/pedagogy/viola-pedagogy.html">Viola</a></li>
+                                    <li><a class="dropdown-item" href="../../pages/pedagogy/cello-pedagogy.html">Cello</a></li>
+                                    <li><a class="dropdown-item" href="../../pages/pedagogy/bass-pedagogy.html">Bass</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
