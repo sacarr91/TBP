@@ -3,9 +3,9 @@ const theNavbar = document.getElementById(`header`)
 const injectNav = () => {
     const nav = `<nav class="navbar navbar-expand-lg bg-body-tertiary mb-3 p-3">
             <div class="container-fluid">
-                <img src="../assets/images/CSEE (2).png" alt="Logo" href="#" height="60px"
+                <img src="../../assets/images/CSEE (2).png" alt="Logo" href="#" height="60px"
                     class="d-inline-block align-text-center">
-                <a class="navbar-brand px-3" href="#" style="font-size: xx-large;">New to Strings Guide</a>
+                <a class="navbar-brand px-3" href="../../index.html" style="font-size: xx-large;">New to Strings Guide</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
