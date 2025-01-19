@@ -15,14 +15,14 @@ const injectNav = () => {
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <ul class="nav nav-pills">
                             <li class="nav-item">
-                                <a class="nav-link" style="text-align: center;" href="./pages/starting.html">Starting an Orchestra</a>
+                                <a class="nav-link" style="text-align: center;" href="../pages/starting.html">Starting an Orchestra</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" style="text-align: center;" href="./pages/maintaining.html">Maintaining an
+                                <a class="nav-link" style="text-align: center;" href="../pages/maintaining.html">Maintaining an
                                     Orchestra</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="./pages/repertoire.html" role="button"
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../pages/repertoire.html" role="button"
                                     aria-expanded="false">Repertoire</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">ES</a></li>
@@ -33,7 +33,7 @@ const injectNav = () => {
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="./pages/pedagogy.html" role="button"
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../pages/pedagogy.html" role="button"
                                     aria-expanded="false">Pedagogy</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Violin</a></li>
@@ -47,7 +47,7 @@ const injectNav = () => {
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="./pages/FOA.html" role="button"
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../pages/FOA.html" role="button"
                                     aria-expanded="false">Guide to FOA</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">FOA 1</a></li>
@@ -62,10 +62,10 @@ const injectNav = () => {
 
                             <li class="nav-item">
                                 <a class="nav-link" 
-                                href="./pages/tools.html">Useful Tools</a>
+                                href="../pages/tools.html">Useful Tools</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./pages/resources.html">Resources</a>
+                                <a class="nav-link" href="../pages/resources.html">Resources</a>
                             </li>
 
                         </ul>
