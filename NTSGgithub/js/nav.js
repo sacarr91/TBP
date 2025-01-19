@@ -15,10 +15,10 @@ const injectNav = () => {
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <ul class="nav nav-pills">
                             <li class="nav-item">
-                                <a class="nav-link" style="text-align: center;" href="../pages/starting.html">Starting an Orchestra</a>
+                                <a class="nav-link" style="text-align: center;" href="../../pages/starting.html">Starting an Orchestra</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" style="text-align: center;" href="../pages/maintaining.html">Maintaining an
+                                <a class="nav-link" style="text-align: center;" href="../../pages/maintaining.html">Maintaining an
                                     Orchestra</a>
                             </li>
                             <li class="nav-item dropdown">
@@ -63,10 +63,10 @@ const injectNav = () => {
 
                             <li class="nav-item">
                                 <a class="nav-link" 
-                                href="../pages/tools.html">Useful Tools</a>
+                                href="../../pages/tools.html">Useful Tools</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/resources.html">Resources</a>
+                                <a class="nav-link" href="../../pages/resources.html">Resources</a>
                             </li>
 
                         </ul>
