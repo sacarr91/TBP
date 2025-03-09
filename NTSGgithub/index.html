@@ -17,8 +17,27 @@
 
 <body>
     <header id="header">
-       <!-- inject Nav -->
+        <!-- inject Nav -->
     </header>
+
+    <!-- Modal -->
+    <div class="modal fade" id="constructionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 cinzel-500" id="exampleModalLabel">Pardon Our Dust...</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Heads up, this site is currently being refurbished. Apologies in advance if something goes a touch wonky during your exploration!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <main id="main">
         <div id="heroImg"></div>
@@ -30,10 +49,21 @@
         <!-- inject footer -->
     </footer>
 </body>
-
+<!-- import jquery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+<!--Modal JS Script -->
+<script type="text/javascript">
+    window.onload = () => {
+        $('#constructionModal').modal('show');
+    }
+</script>
+
+
+
 <script src="/NTSGgithub/js/home.js"></script>
 <script src="/NTSGgithub/js/nav.js"></script>
 
