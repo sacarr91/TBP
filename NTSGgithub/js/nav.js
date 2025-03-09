@@ -75,4 +75,4 @@ const injectNav = () => {
     theNavbar.innerHTML += nav;
 };
 
-injectNav();
+// injectNav();
