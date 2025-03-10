@@ -29,6 +29,7 @@ const injectNav = () => {
                                     href="/NTSGgithub/pages/repertoire/repertoire.html" role="button"
                                     aria-expanded="false">Repertoire</a>
                                 <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/NTSGgithub/pages/repertoire/repertoire.html">Overview</a></li>
                                     <li><a class="dropdown-item" href="#">ES</a></li>
                                     <li><a class="dropdown-item" href="#">DS</a></li>
                                     <li><a class="dropdown-item" href="#">CS</a></li>
