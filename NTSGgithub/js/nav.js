@@ -15,6 +15,8 @@ const injectNav = () => {
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <ul class="nav nav-pills">
+                        <li class="nav-item">
+                                <a class="nav-link" style="text-align: center;" href="/NTSGgithub/index.html">Home</a>
                             <li class="nav-item">
                                 <a class="nav-link" style="text-align: center;" href="/NTSGgithub/pages/starting.html">Starting an
                                     Orchestra</a>
