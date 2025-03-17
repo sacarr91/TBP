@@ -63,13 +63,13 @@ const injectNav = () => {
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/NTSGgithub/pages/FOA/FOA.html"
                                     role="button" aria-expanded="false">Guide to FOA</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">FOA 1</a></li>
-                                    <li><a class="dropdown-item" href="#">FOA 2</a></li>
-                                    <li><a class="dropdown-item" href="#">FOA 3</a></li>
+                                    <li><a class="dropdown-item" href="#">What is FOA?</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Separated FOA</a></li>
+                                    <li><a class="dropdown-item" href="#">All-State</a></li>
+                                    <li><a class="dropdown-item" href="#">Solo & Ensemble</a></li>
+                                    <li><a class="dropdown-item" href="#">Concert MPA</a></li>
                                 </ul>
                             </li>
 
