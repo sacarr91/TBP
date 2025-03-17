@@ -63,7 +63,7 @@ const injectNav = () => {
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/NTSGgithub/pages/FOA/FOA.html"
                                     role="button" aria-expanded="false">Guide to FOA</a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">What is FOA?</a></li>
+                                    <li><a class="dropdown-item" href="/NTSGgithub/pages/FOA/FOA.html">What is FOA?</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
