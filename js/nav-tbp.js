@@ -16,7 +16,7 @@ const injectTbpNav = () => {
                             <a class="nav-link" style="text-align: center;" href="/index-2.html">Home</a>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-                                href="/TBP/Toolbox/toolbox.html" role="button"
+                                href="/TBP/toolbox.html" role="button"
                                 aria-expanded="false">Toolbox</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="/TBP/Toolbox/activities.html">Activities</a></li>
