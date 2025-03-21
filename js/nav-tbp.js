@@ -32,7 +32,7 @@ const injectTbpNav = () => {
                             <a class="nav-link" href="/pages/contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pages/NTSG/index.html">New to Strings Guide</a>
+                            <a class="nav-link" href="/NTSG/index.html">New to Strings Guide</a>
                         </li>
                     </ul>
             </div>
