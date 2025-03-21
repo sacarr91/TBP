@@ -16,20 +16,20 @@ const injectTbpNav = () => {
                             <a class="nav-link" style="text-align: center;" href="/index-2.html">Home</a>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-                                href="/pages/Toolbox/toolbox.html" role="button"
+                                href="/TBP/Toolbox/toolbox.html" role="button"
                                 aria-expanded="false">Toolbox</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/pages/Toolbox/activities.html">Activities</a></li>
-                                <li><a class="dropdown-item" href="/pages/Toolbox/resources.html">Resources</a></li>
-                                <li><a class="dropdown-item" href="/pages/Toolbox/tips.html">Tips</a></li>
-                                <li><a class="dropdown-item" href="/pages/Toolbox/DCs-hosts.html">District Chairs & Hosts</a></li>
+                                <li><a class="dropdown-item" href="/TBP/Toolbox/activities.html">Activities</a></li>
+                                <li><a class="dropdown-item" href="/TBP/Toolbox/resources.html">Resources</a></li>
+                                <li><a class="dropdown-item" href="/TBP/Toolbox/tips.html">Tips</a></li>
+                                <li><a class="dropdown-item" href="/TBP/Toolbox/DCs-hosts.html">District Chairs & Hosts</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pages/deepdive.html">Deep Dive</a>
+                            <a class="nav-link" href="/TBP/deepdive.html">Deep Dive</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pages/contact.html">Contact</a>
+                            <a class="nav-link" href="/TBP/contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/NTSG/index.html">New to Strings Guide</a>
