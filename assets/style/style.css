@@ -8,3 +8,12 @@ body {
     max-height: 35vh;
     object-fit: cover;
 }
+
+#featuredEventsCarousel {
+    width: 75vw;
+    justify-self: center;
+}
+.caroImg {
+    height: 30vh;
+    object-fit: cover;
+}
