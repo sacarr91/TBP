@@ -97,8 +97,8 @@ const injectCreds = () => {
                         Below are more scholarly presentations of the materials used in the creation of this
                         website,<br>
                         if you're into that sort of thing.</p>
-                    <a href="#" class="btn btn-primary">Review of Literature</a>
-                    <a href="#" class="btn btn-primary">Outline & Notes</a>
+                    <a href="/NTSG/assets/resources/Teaching Strings for the New-to-Strings Teacher.pdf" target="_blank" class="btn btn-primary">Review of Literature</a>
+                    <a href="/NTSG/assets/resources/Teaching Strings for NewToStrings Outline & Notes.pdf" target="_blank" class="btn btn-primary">Outline & Notes</a>
                 </div>
             </div>
         </div>`;
