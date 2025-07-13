@@ -19,6 +19,9 @@ p {
     font-style: normal;
 }
 
+li {
+    font-size: large;
+}
 .poppins-thin {
     font-family: "Poppins", serif;
     font-weight: 100;
