@@ -53,10 +53,7 @@ const injectNav = () => {
                                     </li>
                                     <li><a class="dropdown-item" href="/NTSG/pages/pedagogy/bass-pedagogy.html">Bass</a>
                                     </li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Guitar</a></li>
+                                
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
